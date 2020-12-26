@@ -1,12 +1,15 @@
 # Site settings
-title:
-email:
+title: Urban Ambient Inteligence Laboratories
+email: info@uramilabs.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+favicon: "img/favicon.png"
 
-twitter_username:
-github_username:
+linkedin_username: uramilabs
+github_username: uramilabs
 
 # Build settings
 markdown: kramdown
+
+exclude: [Gemfile, Gemfile.lock, README.md, LICENCE]
